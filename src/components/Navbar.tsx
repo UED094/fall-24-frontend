@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NavbarItem from "./NavbarItem";
+import { ModeToggle } from "@/components/mode-toggle";
 
 export default function Navbar() {
 	const navLinks = [
@@ -15,6 +16,7 @@ export default function Navbar() {
 					navLink={navLink}
 				/>
 			))}
+			<ModeToggle />
 		</nav>
 	);
 }

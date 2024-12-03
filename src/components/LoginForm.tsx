@@ -71,6 +71,7 @@ export function LoginForm() {
 					title: 'Login Successful',
 					description: 'You have been successfully logged in.',
 				});
+				window.location.href = '/';
 			}
 		} catch (error) {
 			toast({
